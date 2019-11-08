@@ -34,7 +34,7 @@ android {
             applicationId "com.yjyjbagua.yj"                                   //APP的包名 ， 每次需要修改
             buildConfigField "String", "app_id",'" 510231644 "'                 //ID  每次需要进行修改
             buildConfigField "String", "URL", '" http://www.baidu.com  " '    //网页打包的网址， 每次需要修改。
-            manifestPlaceholders = [app_icon: "@mipmap/a"]                  //APP的图标 ，不要用真人的 ，需要使用比较简单的 。不要太花了。
+            manifestPlaceholders = [app_icon: "@mipmap/a"]                  //APP的图标 ，不要用真人的 ，需要使用比较好看的 。不要太花了。
         }
      }
 }
